@@ -28,6 +28,23 @@ git clone https://github.com/frankchiboy/FinSage.git
 cd FinSage
 pip install -r requirements.txt
 streamlit run stock_dashboard.py
+# Then open http://localhost:8501 in your browser
+```
+
+### 🖼️ Example UI
+
+After starting the app, you should see an interface like this in your browser:
+
+![Intelligent Command Panel Screenshot](finSageScreenShot.png)
+
+### 🧰 Optional: Use Virtualenv (Recommended)
+
+To avoid dependency conflicts, it's recommended to use a virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## 🧠 LLM Integration (Optional)
